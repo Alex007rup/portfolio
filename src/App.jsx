@@ -4,7 +4,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Suryanka Marick</h1>
+      <p>suryankamarick20@gmail.com</p>
     </>
   )
 }
