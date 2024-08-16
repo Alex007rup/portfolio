@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import styles from "../../styles/Navbar.module.css"
+// have to use Link
 
 let Navlinks = ({ item }) => {
   return (
