@@ -1,11 +1,11 @@
-import './App.css'
+import './styles/App.module.css'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>Suryanka Marick</h1>
-      <p>suryankamarick20@gmail.com</p>
+      <Navbar />
     </>
   )
 }

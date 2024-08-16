@@ -1,0 +1,40 @@
+.navContainer {
+  position: sticky;
+  top: 0;
+}
+
+.icon {
+  font-size: 45px;
+  transition: color 0.4s ease-out;
+}
+
+.icon:hover {
+  color: rgb(229, 9, 101);
+  transition: color 0.4s ease-out;
+}
+
+.listItems {
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.listItems::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #707070;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.listItems:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
