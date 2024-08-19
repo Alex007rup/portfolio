@@ -20,7 +20,7 @@ let Navbar = () => {
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg bg-body-tertiary ${styles.navContainer}`}>
+      <nav className={`navbar navbar-expand-lg bg-body-tertiary sticky-top ${styles.navContainer}`}>
         <div className="container-fluid">
           < Logo />
           <MenuToggler handleCheck={handleCheck} />

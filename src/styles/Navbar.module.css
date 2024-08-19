@@ -4,8 +4,7 @@
 }
 
 .navContainer {
-  position: sticky;
-  top: 0;
+  position: fixed;
 }
 
 .icon {

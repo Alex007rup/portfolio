@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.dp {
+  width: 650px;
+  margin-top: 20px;
+}
+
+.imageDesigner {
+  background-color: #ccd5ae;
+  width: 650px;
+  border-radius: 0 50% 50% 50%;
+}
+
+.innerContainer {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.textDesigner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    height: 70vh;
+  }
+  .dp {
+    width: 350px;
+    margin-top: 20px;
+  }
+  .imageDesigner {
+    background-color: #ccd5ae;
+    width: 350px;
+    border-radius: 0 50% 50% 50%;
+  }
+  .innerContainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 40px;
+  }
+}

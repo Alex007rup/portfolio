@@ -1,11 +1,12 @@
 import './styles/App.module.css'
-import Navbar from './components/Navbar/Navbar'
+import HomeSection from './components/Home/HomeSection'
+
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <HomeSection />
     </>
   )
 }
